@@ -1,0 +1,61 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Light Matter",
+  "include": "./light_plus_experimental.json",
+  "tokenColors": [
+    {
+      "scope": [
+        "markup.underline.link.markdown",
+        "constant.other.reference.link.markdown",
+        "constant.other.footnote.markdown",
+        "markup.underline.link.image.markdown"
+      ],
+      "settings": {
+        "foreground": "#919191"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.metadata.markdown",
+        "punctuation.definition.link.title.begin.markdown",
+        "punctuation.definition.link.title.end.markdown",
+        "punctuation.definition.constant.begin.markdown",
+        "punctuation.definition.constant.end.markdown",
+        "punctuation.definition.italic.markdown",
+        "punctuation.definition.bold.markdown",
+        "punctuation.definition.highlight.markdown",
+        "punctuation.definition.heading.markdown",
+        "punctuation.definition.constant.markdown",
+        "punctuation.definition.link.description.begin.markdown",
+        "punctuation.definition.link.description.end.markdown",
+        "punctuation.separator.key-value.markdown",
+        "punctuation.definition.footnote.title.begin.markdown",
+        "punctuation.definition.footnote.title.end.markdown",
+        "punctuation.definition.checkbox.begin.markdown",
+        "punctuation.definition.checkbox.end.markdown"
+      ],
+      "settings": {
+        "foreground": "#D4D4D4"
+      }
+    },
+    {
+      "scope": ["markup.highlight.markdown"],
+      "settings": {
+        "foreground": "#e50000",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["punctuation.definition.checkmark.markdown"],
+      "settings": {
+        "foreground": "#008000"
+      }
+    },
+    {
+      "scope": ["entity.name.citationKey"],
+      "settings": {
+        "foreground": "#0000ff"
+      }
+    }
+  ]
+}

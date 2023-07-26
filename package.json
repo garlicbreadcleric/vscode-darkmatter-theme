@@ -1,0 +1,30 @@
+{
+  "name": "dark-matter",
+  "displayName": "Dark Matter",
+  "description": "Markdown-focused theme based on Dark/Light V2+",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/garlicbreadcleric/vscode-darkmatter-theme"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Matter",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark_matter.json"
+      },
+      {
+        "label": "Light Matter",
+        "uiTheme": "vs",
+        "path": "./themes/light_matter.json"
+      }
+    ]
+  }
+}
